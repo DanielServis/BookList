@@ -16,4 +16,9 @@ public class ShelfShelf
         tempShelves[shelves.length] = shelf;
         shelves = tempShelves;
     }
+
+    public Shelf[] superGet()
+    {
+        return shelves;
+    }
 }
