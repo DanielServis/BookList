@@ -109,7 +109,10 @@ public class Main {
 
         while(true)
         {
+            System.out.println("Enter below an attribute of your desired book \\");
+            System.out.print("                                                V");
             String phrase = input.nextLine();
+
         }
     }
 }
