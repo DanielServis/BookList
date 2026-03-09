@@ -18,5 +18,13 @@ public class Shelf
         books = tempBooks;
     }
 
+    public void remove(int number)
+    {
 
+    }
+
+    public void remove(String word)
+    {
+
+    }
 }
