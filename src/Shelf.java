@@ -11,7 +11,7 @@ public class Shelf
         this.ID = IDC++;
     }
 
-    public void add(String title, String author, String language, String genre, String publisher, int releaseYear, int isbn)
+    public void add(String title, String author, String language, String genre, String publisher, int releaseYear, long isbn)
     {
         Book newBook = new Book(title, author, language, genre, publisher, releaseYear, isbn);
         Book[] tempBooks = new Book[books.length+1];
